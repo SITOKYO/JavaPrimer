@@ -1,0 +1,1 @@
+package list00_03;public class Main {     public static void main(String[] args) {        /* 注意：このコードはコンパイルエラーが発生するコードです */        //System.out.println("湊くんかっこいい！最高！);  コメントを外すとコンパイルエラーになることを確認    }}
