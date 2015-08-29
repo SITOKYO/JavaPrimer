@@ -1,11 +1,14 @@
 package list11_10;
 
+/**
+ * お化けキノコクラス
+ */
 public class Matango {
-	int hp;
-	final int LEVEL = 10;
-	char suffix;
+    int hp;
+    final int LEVEL = 10;
+    char suffix;
 	
-	void run() {
-		System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
-	}
+    void run() {
+	System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
+    }
 }
