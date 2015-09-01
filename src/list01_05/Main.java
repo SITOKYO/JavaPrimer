@@ -1,0 +1,1 @@
+package list01_05;/** * final変数 */public class Main {     public static void main(String[] args) {        final double TAX = 1.08;        int fax = 5;        System.out.println( "5万円から4万円に値下げします");        //TAX = 4;  finalの変数には再代入できない        System.out.println( "ＦＡＸの新価格（税込み）");        System.out.println( fax * TAX + "万円" );    }}
