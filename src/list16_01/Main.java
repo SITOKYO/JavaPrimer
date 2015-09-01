@@ -2,6 +2,9 @@ package list16_01;
 
 import java.io.*;
 
+/**
+ * ファイル読み込み
+ */
 public class Main{
     public static void main(String[] args) throws Exception {
         String filename = "c:\\test.txt";
