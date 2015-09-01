@@ -3,6 +3,9 @@ package list16_05;
 import java.awt.FlowLayout;
 import javax.swing.*;
 
+/**
+ * Swingプログラム
+ */
 public class Main {
     public static void main(String[] args) {
 	JFrame frame = new JFrame("はじめてのGUI");
