@@ -12,7 +12,7 @@ public class Matango {
         this.hitPoint = hitPoint;
         this.suffix = suffix;
     }
-    public void run() {
+    public void runAway() {
 	System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
     }
 }

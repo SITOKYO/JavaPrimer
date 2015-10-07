@@ -17,10 +17,10 @@ public class Hero {
 	System.out.println(this.name + "は、眠って回復した！");
     }
 
-    public void sit(int sitSecond) {
-	this.hitPoint += sitSecond;
-	System.out.println(this.name + "は、" + sitSecond + "秒すわった！");
-	System.out.println("HPが" + sitSecond + "ポイント回復した.");
+    public void sit(int sittingSeconds) {
+	this.hitPoint += sittingSeconds;
+	System.out.println(this.name + "は、" + sittingSeconds + "秒すわった！");
+	System.out.println("HPが" + sittingSeconds + "ポイント回復した.");
     }
 	
     public void slip() {
@@ -29,7 +29,7 @@ public class Hero {
 	System.out.println("5のダメージ！");
     }
 	
-    public void run() {
+    public void runAway() {
 	System.out.println(this.name + "は、逃げ出した！");
 	System.out.println("GAMEOVER");
 	System.out.println("最終HPは" + this.hitPoint + "でした");

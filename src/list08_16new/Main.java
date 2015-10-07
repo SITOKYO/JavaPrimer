@@ -24,8 +24,8 @@ public class Main {
 		
 	// 消極的な冒険のはじまり
 	hero.slip();
-	matangoA.run();
-	matangoB.run();
-	hero.run();
+	matangoA.runAway();
+	matangoB.runAway();
+	hero.runAway();
     }
 }
