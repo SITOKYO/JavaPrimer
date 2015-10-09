@@ -1,7 +1,5 @@
 package list08_16new;
 
-import list08_16.*;
-
 /**
  * メインクラス
  */
