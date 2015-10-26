@@ -13,7 +13,7 @@ public class DeathBat extends Monster{
     }
     
     @Override
-    protected void run() {
+    protected void runAway() {
 	System.out.println("地獄コウモリは逃げ出した！");
     }
     

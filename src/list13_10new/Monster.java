@@ -9,7 +9,7 @@ public abstract class Monster {
     public void damaged(int damagePoint){
         hitPoint -= damagePoint;
         if (isRunaway()){
-            run();
+            runAway();
         } else {
             reduceHitPoint(damagePoint);
         }
@@ -19,7 +19,7 @@ public abstract class Monster {
         return (hitPoint <= 0 ? true : false);
     }
     
-    protected abstract void run();
+    protected abstract void runAway();
     
     protected abstract void reduceHitPoint(int damagePoint);    
 }

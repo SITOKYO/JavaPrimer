@@ -5,14 +5,14 @@ package list13_10new;
  * スライムクラス
  */
 public class Slime extends Monster{
-    
+    private final int SLIME_HITPOINT = 50;
     
     public Slime(){
-        super.hitPoint = 50;
+        super.hitPoint = SLIME_HITPOINT;
     }
 
     @Override
-    protected void run() {
+    protected void runAway() {
 	System.out.println("スライムは体をうねらせながら逃げ出した！");
     }
     

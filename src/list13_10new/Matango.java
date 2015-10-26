@@ -5,12 +5,14 @@ package list13_10new;
  * お化けキノコクラス
  */
 public class Matango extends Monster{
+    private final int MATANGO_HITPOINT = 500;
+    
     public Matango(){
-        super.hitPoint = 100;
+        super.hitPoint = MATANGO_HITPOINT;
     }
 	
     @Override
-    protected void run() {
+    protected void runAway() {
 	System.out.println("お化けキノコは逃げ出した！");
     }
     

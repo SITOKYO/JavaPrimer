@@ -12,7 +12,7 @@ public class Goblin extends Monster{
     }
     
     @Override
-    protected void run() {
+    protected void runAway() {
 	System.out.println("ゴブリンはダダダっと逃げ出した！");
     }
     

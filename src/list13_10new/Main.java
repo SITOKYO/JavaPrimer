@@ -15,7 +15,7 @@ public class Main {
 	monsters[2] = new DeathBat();
         monsters[3] = new Matango();
 	for(Monster m : monsters) {
-	    //m.run();
+	    //m.runAway();
             hero.attack(m);
 	}
     }
