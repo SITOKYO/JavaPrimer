@@ -4,17 +4,22 @@ package list13_10new;
 /**
  * ヒーロークラス
  */
-public class Hero extends Character {
+public class Hero implements Attackable {
     
-    Sword sword = new Sword();
+    private String name; 
+    private Sword sword = new Sword();
+
+    public Hero(String name){
+        this.name = name;
+    }
     
-    public void attack(Monster m, String swordName) { /* モンスター攻撃用 */
+    public void attack(Monster monster, String swordName) { /* モンスター攻撃用 */
         sword.setName(swordName);
         
         System.out.println("-------------------------------------------------");
-	System.out.println(this.getName() + "の攻撃！");
+	System.out.println(this.name + "の攻撃！");
 	System.out.println("敵に" + sword.getDamagePoint() + "ポイントのダメージをあたえた");
 
-        m.damaged(sword.getDamagePoint());
+        monster.damaged(sword.getDamagePoint());
     }
 }

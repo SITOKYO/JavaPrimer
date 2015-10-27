@@ -6,16 +6,15 @@ package list13_10new;
  */
 public class Main {
     public static void main(String[] args) {
-        Character hero = new Hero();
-        hero.setName("勇者A");
+        Attackable hero = new Hero("勇者A");
         
 	Monster[] monsters = new Monster[4];
 	monsters[0] = new Slime();
 	monsters[1] = new Goblin();
 	monsters[2] = new DeathBat();
         monsters[3] = new Matango();
-	for(Monster m : monsters) {
-            hero.attack(m, "ムラマサ");
+	for(Monster monster : monsters) {
+            hero.attack(monster, "ムラマサ");
 	}
     }
 }
