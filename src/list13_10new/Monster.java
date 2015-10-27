@@ -12,6 +12,7 @@ public abstract class Monster {
             runAway();
         } else {
             reduceHitPoint(damagePoint);
+            System.out.println("残りヒットポイントは" + hitPoint);
         }
     }
 

@@ -5,29 +5,25 @@ package list13_10new;
  * キャラクタークラス（抽象クラス）
  */
 public abstract class Character{
-    String name;
-    int hp;
+    private String name;
+    private int hitPoint;
 	
     public String getName(){
 	return this.name;
     }
 
-    public void run(){
-	System.out.println(this.name + "は逃げ出した");
-    }
-	
-    public abstract void attack(Monster m);
-
-    public int getHp() {
-	return hp;
+    public int getHitPoint() {
+	return hitPoint;
     }
 
-    public void setHp(int hp) {
-	this.hp = hp;
+    public void setHitPoint(int hitPoint) {
+	this.hitPoint = hitPoint;
     }
 
     public void setName(String name) {
 	this.name = name;
     }
-	
+
+    public abstract void attack(Monster monster, String SwordName);
+    
 }
