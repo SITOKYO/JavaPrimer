@@ -6,7 +6,7 @@ package list13_10new;
  */
 public class DeathBat extends Monster{	
     
-    private final int DETEH_BAT_HITPOINT = 1000;
+    private final int DETEH_BAT_HITPOINT = 500;
     
     public DeathBat(){
         super.hitPoint = DETEH_BAT_HITPOINT;
@@ -14,7 +14,7 @@ public class DeathBat extends Monster{
     
     @Override
     protected void runAway() {
-	System.out.println("地獄コウモリは逃げ出した！");
+	System.out.println("地獄コウモリはパタパタと逃げ出した！");
     }
     
     @Override

@@ -5,7 +5,7 @@ package list13_10new;
  * ゴブリンクラス
  */
 public class Goblin extends Monster{
-    private final int GOBLIN_HITPOINT = 500;
+    private final int GOBLIN_HITPOINT = 1000;
     
     public Goblin(){
         super.hitPoint = GOBLIN_HITPOINT;

@@ -5,7 +5,7 @@ package list13_10new;
  * スライムクラス
  */
 public class Slime extends Monster{
-    private final int SLIME_HITPOINT = 50;
+    private final int SLIME_HITPOINT = 200;
     
     public Slime(){
         super.hitPoint = SLIME_HITPOINT;
