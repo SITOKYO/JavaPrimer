@@ -9,6 +9,10 @@ public class Hero implements Attackable {
     private String name; 
     private Sword sword = new Sword();
 
+    public Hero(){
+        this.name = "デフォルトヒーロー";
+    }
+    
     public Hero(String name){
         this.name = name;
     }

@@ -6,7 +6,8 @@ package list13_10new;
  */
 public class Main {
     public static void main(String[] args) {
-        Attackable hero = new Hero("勇者A");
+        Attackable hero = new Hero("ティーダ");
+        //Attackable hero = new Hero();
         
 	Monster[] monsters = new Monster[4];
 	monsters[0] = new Slime();
@@ -14,7 +15,7 @@ public class Main {
 	monsters[2] = new DeathBat();
         monsters[3] = new Matango();
 	for(Monster monster : monsters) {
-            hero.attack(monster, "ムラマサ");
+            hero.attack(monster, "エターナルソード");
 	}
     }
 }
