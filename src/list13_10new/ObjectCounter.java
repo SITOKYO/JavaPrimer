@@ -16,7 +16,7 @@ public class ObjectCounter {
         return objectCounter;
     }
     
-    public void add(){
+    public void addObjectCount(){
         summary = summary + 1;
     }
     

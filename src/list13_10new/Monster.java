@@ -7,7 +7,7 @@ public abstract class Monster {
     protected int hitPoint;
     
     public Monster(){
-        ObjectCounter.getInstance().add();
+        ObjectCounter.getInstance().addObjectCount();
     }
     
     public void damaged(int damagePoint){

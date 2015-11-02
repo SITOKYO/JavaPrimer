@@ -10,15 +10,15 @@ public class Hero implements Attackable {
 
     public Hero(){
         this.name = "デフォルトヒーロー";
-        ObjectCounter.getInstance().add();
+        ObjectCounter.getInstance().addObjectCount();
     }
     
     public Hero(String name){
+        this();    // Hero()呼び出し
         this.name = name;
-        ObjectCounter.getInstance().add();
     }
     
-    public void attack(Monster monster, String swordName) { /* モンスター攻撃用 */
+    public void attack(Monster monster, String swordName) {
         sword.setName(swordName);
         
         System.out.println("-------------------------------------------------");
