@@ -8,13 +8,16 @@ public class Hero implements Attackable {
     
     private String name; 
     private Sword sword = new Sword();
+    private ObjectCounter objectCounter = ObjectCounter.getInstance();
 
     public Hero(){
         this.name = "デフォルトヒーロー";
+        objectCounter.add();
     }
     
     public Hero(String name){
         this.name = name;
+        objectCounter.add();
     }
     
     public void attack(Monster monster, String swordName) { /* モンスター攻撃用 */

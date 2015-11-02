@@ -10,6 +10,7 @@ public class DeathBat extends Monster{
     
     public DeathBat(){
         super.hitPoint = DETEH_BAT_HITPOINT;
+        
     }
     
     @Override
