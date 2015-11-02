@@ -1,5 +1,8 @@
 package list13_10new;
 
+/**
+ * オブジェクトの数をカウントするクラス
+ */
 public class ObjectCounter {
     
     private static ObjectCounter objectCounter = new ObjectCounter();
