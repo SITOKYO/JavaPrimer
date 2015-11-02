@@ -4,7 +4,7 @@ package list13_10new;
  * オブジェクトの数をカウントするクラス
  */
 public class ObjectCounter {
-    private static ObjectCounter objectCounter = new ObjectCounter();
+    private static final ObjectCounter objectCounter = new ObjectCounter();
     private int summary;
     
     // コンストラクタをprivateにすることでnewを禁止する
