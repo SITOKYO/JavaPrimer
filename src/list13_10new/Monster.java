@@ -5,10 +5,9 @@ package list13_10new;
  */
 public abstract class Monster {
     protected int hitPoint;
-    private ObjectCounter objectCounter = ObjectCounter.getInstance();
     
     public Monster(){
-        objectCounter.add();
+        ObjectCounter.getInstance().add();
     }
     
     public void damaged(int damagePoint){
