@@ -1,7 +1,7 @@
 package list13_10new;
 
 /**
- * オブジェクトの数をカウントするクラス
+ * ヒーローとモンスターのオブジェクトの数をカウントするクラス
  */
 public class ObjectCounter {
     private static final ObjectCounter objectCounter = new ObjectCounter();

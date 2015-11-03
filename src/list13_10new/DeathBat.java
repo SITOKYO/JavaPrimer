@@ -8,8 +8,7 @@ public class DeathBat extends Monster{
     private final int DETEH_BAT_HITPOINT = 500;
     
     public DeathBat(){
-        super.hitPoint = DETEH_BAT_HITPOINT;
-        
+        super.hitPoint = DETEH_BAT_HITPOINT; 
     }
     
     @Override
