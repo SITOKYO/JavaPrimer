@@ -18,7 +18,9 @@ public class Main {
             hero.attack(monster, "エターナルソード");
 	}
         
+        ObjectCounter counter = ObjectCounter.getInstance();
+        
         System.out.println("***********************************************");
-        System.out.println("オブジェクトの数：" + ObjectCounter.getInstance().getObjectConut());
+        System.out.println("オブジェクトの数：" + counter.getObjectConut());
     }
 }
